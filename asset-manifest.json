@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chanhlonglu/static/css/main.34de6062.chunk.css",
+    "main.js": "/chanhlonglu/static/js/main.deef8bf1.chunk.js",
+    "main.js.map": "/chanhlonglu/static/js/main.deef8bf1.chunk.js.map",
+    "runtime~main.js": "/chanhlonglu/static/js/runtime~main.b1c22c26.js",
+    "runtime~main.js.map": "/chanhlonglu/static/js/runtime~main.b1c22c26.js.map",
+    "static/js/2.3310f33a.chunk.js": "/chanhlonglu/static/js/2.3310f33a.chunk.js",
+    "static/js/2.3310f33a.chunk.js.map": "/chanhlonglu/static/js/2.3310f33a.chunk.js.map",
+    "index.html": "/chanhlonglu/index.html",
+    "precache-manifest.ca51074e88f3dffaf7898ce493f8f81f.js": "/chanhlonglu/precache-manifest.ca51074e88f3dffaf7898ce493f8f81f.js",
+    "service-worker.js": "/chanhlonglu/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/chanhlonglu/static/css/main.34de6062.chunk.css.map"
+  }
+}
