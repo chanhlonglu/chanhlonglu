@@ -1,13 +1,17 @@
 h1 {
   width: 100%;
-  background-color: #101010;
+  background-color: #ff5252;
   text-align: center;
   padding: 5px;
-  color: aliceblue;
+  color: #fff;
+}
+
+h5 {
+  color: #ff5252;
 }
 
 p {
-  font-weight: normal !important;
+  color: #fff;
 }
 
 .blank-row {
@@ -15,7 +19,7 @@ p {
 }
 
 .row-gap {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .btn-container {
@@ -29,6 +33,7 @@ p {
   text-align: center;
   padding: 0;
   border-radius: 50% !important;
+  background-color: #ff5252 !important;
 }
 .btn-circle i {
   position: relative;
@@ -54,10 +59,24 @@ p {
 }
 
 .job-title-col {
-  /* max-width: 180px !important; */
   text-align: right !important;
 }
 
 .job-description-col {
   min-width: 360px !important;
+}
+
+.job-technologies {
+  text-align: center !important;
+  max-width: 1000px !important;
+  width: 1000px;
+  background-color: #ff5252;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 2px;
+  border-radius: 5px !important;
+  color: #fff;
 }

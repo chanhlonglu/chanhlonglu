@@ -27,22 +27,35 @@ function Career(props) {
   } = props;
 
   return (
-    <div className="row row-gap">
-      <div className="col job-title-col">
-        <h6>{date}</h6>
-        <p className="badge badge-pill badge-secondary">{title}</p>
-        <p>{company.name}</p>
-        <p>{location}</p>
+    <div className="container-fluid row-gap">
+      <div className="row">
+        <div className="col job-title-col">
+          <h5>{date}</h5>
+          <p
+            className="badge badge-pill badge-success"
+            style={{ color: "black", fontSize: "1em" }}
+          >
+            {title}
+          </p>
+          <p>{company.name}</p>
+          <p>{location}</p>
+        </div>
+
+        <div className="col img-company-col">
+          <img className="img-company" src={company.img} alt={company.name} />
+        </div>
+
+        <div className="col job-description-col">
+          {responsibilities.map((resp, index) => (
+            <p key={index}>{resp}</p>
+          ))}
+        </div>
       </div>
 
-      <div className="col img-company-col">
-        <img className="img-company" src={company.img} alt={company.name} />
-      </div>
-
-      <div className="col job-description-col">
-        {responsibilities.map((resp, index) => (
-          <p key={index}>{resp}</p>
-        ))}
+      <div className="row">
+        <div className="job-technologies">
+          <span>{technologies}</span>
+        </div>
       </div>
     </div>
   );
