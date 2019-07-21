@@ -1,20 +1,63 @@
-.header {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  align-items: center;
+h1 {
+  width: 100%;
+  background-color: #101010;
+  text-align: center;
+  padding: 5px;
+  color: aliceblue;
 }
 
-.header-logo {
-  padding-left: 1em;
+p {
+  font-weight: normal !important;
 }
 
-.header-menu {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 1em;
-  grid-column-gap: 1em;
+.blank-row {
+  padding-top: 80px !important;
 }
 
-.header-menu-selected {
-  color: red;
+.row-gap {
+  margin-top: 50px;
+}
+
+.btn-container {
+  position: fixed;
+  z-index: 1;
+}
+.btn-circle {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50% !important;
+}
+.btn-circle i {
+  position: relative;
+  top: -1px;
+}
+.btn-circle-xl {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 1.3rem;
+}
+
+.img-company {
+  width: 150px;
+  height: 150px;
+  border-radius: 50% !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-company-col {
+  max-width: 180px !important;
+}
+
+.job-title-col {
+  /* max-width: 180px !important; */
+  text-align: right !important;
+}
+
+.job-description-col {
+  min-width: 360px !important;
 }
