@@ -18,10 +18,10 @@ export const EXPERIENCES = [
             "Intergen provides information technology solutions across New Zealand, Australia and North America based exclusively on Microsoft's tools and technologies: Microsoft Dynamics CRM, Microsoft Dynamics NAV, Microsoft Dynamics AX, Microsoft SharePoint, Microsoft SQL Server, Microsoft Enterprise Mobility Suite, Microsoft Azure, Microsoft Office 365 and Microsoft System Center."
         },
         responsibilities: [
-          "Develop, test and deploy. I build it, I own it.",
-          "Custom build frontend and backend applications.",
-          "Enhance existing applications.",
-          "Projects documentation."
+          "Developed, tested and deployed several Dynamics CRM and ASP.NET applications enabling businesses to:",
+          "- Improve productivity",
+          "- Streamline and automate business processes",
+          "I build it, I own it. Mentality."
         ],
         technologies:
           "JavaScript, C#, TypeScript, MS SQL, HTML, Git, TeamCity, Octopus Deploy, jQuery, Pure.css, handlebar.js, hapi.js, ASP.NET, jasmine.js, jest.js"

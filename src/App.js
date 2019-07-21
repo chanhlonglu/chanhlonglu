@@ -12,13 +12,13 @@ function App() {
     <div className="">
       <div className="container">
         <div className="row btn-container">
-          <NavLink exact to="/">
+          <NavLink exact to="/" activeClassName="btn-clicked">
             <button className="btn btn-dark btn-circle btn-circle-xl m-1">
               <img src={AboutMeIcon} alt="About Me" />
             </button>
           </NavLink>
 
-          <NavLink to="/experience">
+          <NavLink to="/experience" activeClassName="btn-clicked">
             <button className="btn btn-dark btn-circle btn-circle-xl m-1">
               <img src={ExperienceIcon} alt="Experience" />
             </button>

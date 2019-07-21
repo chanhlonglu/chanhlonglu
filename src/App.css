@@ -11,11 +11,12 @@ h4 {
 }
 
 p {
+  font-size: 1.25em;
   color: #fff;
 }
 
 .blank-row {
-  padding-top: 80px !important;
+  padding-top: 100px !important;
 }
 
 .row-gap {
@@ -24,26 +25,23 @@ p {
 
 .btn-container {
   position: fixed;
+  padding: 10px;
   z-index: 1;
 }
 .btn-circle {
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
-  text-align: center;
   padding: 0;
   border-radius: 50% !important;
-  background-color: #ff5252 !important;
-}
-.btn-circle i {
-  position: relative;
-  top: -1px;
+  background-color: #f8f9fa !important;
 }
 .btn-circle-xl {
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
-  font-size: 1.3rem;
+  width: 65px;
+  height: 65px;
+}
+.btn-clicked {
+  width: 75px;
+  height: 75px;
+  border-radius: 50% !important;
+  background-color: #ff5252;
 }
 
 .img-company {
@@ -75,7 +73,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   padding: 2px;
   border-radius: 5px !important;
   color: #fff;
@@ -83,7 +81,7 @@ p {
 
 .github,
 .linkedin {
-  font-size: 1.5em !important;
+  font-size: 1.75em !important;
   margin: 15px !important;
 }
 
@@ -91,4 +89,12 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.about-me-content {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
