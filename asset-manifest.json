@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/chanhlonglu/static/css/main.9d8f7f46.chunk.css",
-    "main.js": "/chanhlonglu/static/js/main.36612515.chunk.js",
-    "main.js.map": "/chanhlonglu/static/js/main.36612515.chunk.js.map",
+    "main.js": "/chanhlonglu/static/js/main.6845f028.chunk.js",
+    "main.js.map": "/chanhlonglu/static/js/main.6845f028.chunk.js.map",
     "runtime~main.js": "/chanhlonglu/static/js/runtime~main.b1c22c26.js",
     "runtime~main.js.map": "/chanhlonglu/static/js/runtime~main.b1c22c26.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/chanhlonglu/static/css/2.22a7d4ef.chunk.css",
     "static/js/2.94ed535a.chunk.js": "/chanhlonglu/static/js/2.94ed535a.chunk.js",
     "static/js/2.94ed535a.chunk.js.map": "/chanhlonglu/static/js/2.94ed535a.chunk.js.map",
     "index.html": "/chanhlonglu/index.html",
-    "precache-manifest.d54a2d48ce4a736a8b50cf95703e17a6.js": "/chanhlonglu/precache-manifest.d54a2d48ce4a736a8b50cf95703e17a6.js",
+    "precache-manifest.d0e7ec403714ee58a63e224a8ab09153.js": "/chanhlonglu/precache-manifest.d0e7ec403714ee58a63e224a8ab09153.js",
     "service-worker.js": "/chanhlonglu/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/chanhlonglu/static/css/2.22a7d4ef.chunk.css.map",
     "static/css/main.9d8f7f46.chunk.css.map": "/chanhlonglu/static/css/main.9d8f7f46.chunk.css.map",
