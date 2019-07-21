@@ -30,14 +30,19 @@ function Career(props) {
     <div className="container-fluid row-gap">
       <div className="row">
         <div className="col job-title-col">
-          <h5>{date}</h5>
+          <h4>{date}</h4>
           <p
-            className="badge badge-pill badge-success"
+            className="badge badge-pill badge-light"
             style={{ color: "black", fontSize: "1em" }}
           >
             {title}
           </p>
-          <p>{company.name}</p>
+
+          <p>
+            <a href={company.website} target="_blank" rel="noopener noreferrer">
+              {company.name}
+            </a>
+          </p>
           <p>{location}</p>
         </div>
 

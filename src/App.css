@@ -6,7 +6,7 @@ h1 {
   color: #fff;
 }
 
-h5 {
+h4 {
   color: #ff5252;
 }
 
@@ -79,4 +79,16 @@ p {
   padding: 2px;
   border-radius: 5px !important;
   color: #fff;
+}
+
+.github,
+.linkedin {
+  font-size: 1.5em !important;
+  margin: 15px !important;
+}
+
+.github-linkedin-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
