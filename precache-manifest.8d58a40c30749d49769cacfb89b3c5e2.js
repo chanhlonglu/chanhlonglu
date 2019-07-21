@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02ce5aebd4328575d71c215da3dd4cce",
+    "revision": "d2cfcd3d1f632c39c5fb363a01814f25",
     "url": "/chanhlonglu/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chanhlonglu/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "a6fdc5009d015c939a52",
+    "revision": "a0fe330e1126277cacaf",
     "url": "/chanhlonglu/static/css/main.9d8f7f46.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chanhlonglu/static/js/2.94ed535a.chunk.js"
   },
   {
-    "revision": "a6fdc5009d015c939a52",
-    "url": "/chanhlonglu/static/js/main.f7243e44.chunk.js"
+    "revision": "a0fe330e1126277cacaf",
+    "url": "/chanhlonglu/static/js/main.e16c7267.chunk.js"
   },
   {
     "revision": "c80650989b6247e4b21d",
