@@ -10,7 +10,7 @@ function AboutMe() {
         <h1>About Me</h1>
       </div>
       <div className="row">
-        <div className="github-linkedin-container">
+        <div className="horizontal-align-center">
           <a
             href={github}
             target="_blank"
@@ -55,7 +55,7 @@ function AboutMe() {
           </p>
           <p>
             I am extremely committed to my work, willing to go above and beyond
-            to further my understanding of the systems and technologies I work
+            to further my understanding of the systems and technologies you work
             with, and deliver results.
           </p>
         </div>
