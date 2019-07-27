@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/animation.css";
 
 function AboutMe() {
   const github = "https://github.com/chanhlonglu";
@@ -32,7 +33,11 @@ function AboutMe() {
       <div className="flex-fill d-flex justify-content-start overflow-auto">
         <div className="about-me-content">
           <p>
-            Hello, I am <b>CHANH LONG LU</b>.
+            Hello, I am{" "}
+            <b className="tracking-in-contract" style={{ color: "#ff5252" }}>
+              CHANH LONG LU
+            </b>
+            .
           </p>
           <p>
             If in doubt about to how pronounce the{" "}
@@ -43,11 +48,10 @@ function AboutMe() {
             <u>
               <b>Chan</b>
             </u>{" "}
-            last name 😉 and go from there.
+            last name 😉.
           </p>
           <p>
-            Anyway, welcome to my website. I am a Software Developer for over 3
-            years.
+            Welcome to my website. I am a Software Developer for over 3 years.
           </p>
           <p>
             I have built and delivered solutions to improve productivity,
