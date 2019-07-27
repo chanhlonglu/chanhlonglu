@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10d2c49c840cd61d48edd74f11878cee",
+    "revision": "d948587537f3c8a74cea7fddfdb2c1f4",
     "url": "/chanhlonglu/index.html"
   },
   {
-    "revision": "336ad9de78a90c29ab35",
+    "revision": "d63e10a8f33a6b0f80ae",
     "url": "/chanhlonglu/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "945a370b161c5abf7abb",
-    "url": "/chanhlonglu/static/css/main.fe41f42a.chunk.css"
+    "revision": "fcc33d3758c7cb1ac00c",
+    "url": "/chanhlonglu/static/css/main.bd1685b5.chunk.css"
   },
   {
-    "revision": "336ad9de78a90c29ab35",
-    "url": "/chanhlonglu/static/js/2.0eb4bdd4.chunk.js"
+    "revision": "d63e10a8f33a6b0f80ae",
+    "url": "/chanhlonglu/static/js/2.729d7c54.chunk.js"
   },
   {
-    "revision": "945a370b161c5abf7abb",
-    "url": "/chanhlonglu/static/js/main.359ec142.chunk.js"
+    "revision": "fcc33d3758c7cb1ac00c",
+    "url": "/chanhlonglu/static/js/main.1714b2d3.chunk.js"
   },
   {
     "revision": "c80650989b6247e4b21d",
     "url": "/chanhlonglu/static/js/runtime~main.b1c22c26.js"
+  },
+  {
+    "revision": "82bf59795b876f920bf00b6fdc4d897d",
+    "url": "/chanhlonglu/static/media/background-image.82bf5979.jpg"
   },
   {
     "revision": "487a4483311f53438f99f3f827e30ed7",
