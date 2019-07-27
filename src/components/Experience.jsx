@@ -39,14 +39,10 @@ function Career(props) {
         }}
       >
         <div className="col job-title-col">
-          <h4>{date}</h4>
-          <p
-            className="badge badge-pill badge-light"
-            style={{ color: "black", fontSize: "1em" }}
-          >
-            {title}
-          </p>
+          <div className="badge badge-pill badge-light job-title">{title}</div>
           <br />
+          <br />
+          <h4>{date}</h4>
           <a href={company.website} target="_blank" rel="noopener noreferrer">
             {company.name}
           </a>
@@ -57,7 +53,7 @@ function Career(props) {
           <img className="img-company" src={company.img} alt={company.name} />
         </div>
 
-        <div className="col job-description-col">
+        <div className="col">
           {responsibilities.map((resp, index) => (
             <p key={index}>{resp}</p>
           ))}

@@ -89,9 +89,11 @@ a {
 .job-title-col {
   text-align: right !important;
 }
-
-.job-description-col {
-  min-width: 360px !important;
+.job-title {
+  color: black;
+  font-size: 1em !important;
+  width: 100%;
+  white-space: pre-wrap !important;
 }
 
 .job-technologies {
