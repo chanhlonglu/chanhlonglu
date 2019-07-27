@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4834ff6a7f81923757997f0a8f9130d",
+    "revision": "10d2c49c840cd61d48edd74f11878cee",
     "url": "/chanhlonglu/index.html"
   },
   {
-    "revision": "b18460fad2ea2163134c",
+    "revision": "336ad9de78a90c29ab35",
     "url": "/chanhlonglu/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "816db591bae5a1aec8b2",
-    "url": "/chanhlonglu/static/css/main.e55bc432.chunk.css"
+    "revision": "945a370b161c5abf7abb",
+    "url": "/chanhlonglu/static/css/main.fe41f42a.chunk.css"
   },
   {
-    "revision": "b18460fad2ea2163134c",
-    "url": "/chanhlonglu/static/js/2.1c62cab0.chunk.js"
+    "revision": "336ad9de78a90c29ab35",
+    "url": "/chanhlonglu/static/js/2.0eb4bdd4.chunk.js"
   },
   {
-    "revision": "816db591bae5a1aec8b2",
-    "url": "/chanhlonglu/static/js/main.fccd6c75.chunk.js"
+    "revision": "945a370b161c5abf7abb",
+    "url": "/chanhlonglu/static/js/main.359ec142.chunk.js"
   },
   {
     "revision": "c80650989b6247e4b21d",
