@@ -8,10 +8,12 @@ import NotFound from "./components/NotFound";
 import AboutMeIcon from "./assets/icons/about-me.png";
 import ExperienceIcon from "./assets/icons/resume.png";
 import ProjectIcon from "./assets/icons/briefcase.png";
+import BgImage from "./assets/images/background-image.jpg";
 
 function App() {
   return (
-    <div className="">
+    <div>
+      <BackgroundImage />
       <div className="container">
         <div className="row btn-container">
           <NavLink exact to="/" activeClassName="btn-clicked">
@@ -45,3 +47,20 @@ function App() {
 }
 
 export default App;
+
+function BackgroundImage() {
+  return (
+    <img
+      src={BgImage}
+      alt={""}
+      style={{
+        position: "fixed",
+        zIndex: "-1",
+        width: "100%",
+        height: "100%",
+        backgroundRepeat: "repeat-y",
+        backgroundImage: `url(${BgImage})`
+      }}
+    />
+  );
+}

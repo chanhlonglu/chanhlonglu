@@ -1,9 +1,12 @@
+/* TODO: Remove/reuse properties.  Move different page styles to seperate file. */
+
 h1 {
   width: 100%;
   background-color: #ff5252;
   text-align: center;
   padding: 5px;
   color: #fff;
+  margin-bottom: 0 !important;
 }
 
 h4 {
@@ -13,6 +16,13 @@ h4 {
 p {
   font-size: 1.25em;
   color: #fff;
+}
+
+a {
+  text-shadow: 0 0 5px #ff5252;
+  font-size: 1.15em !important;
+  font-weight: bolder;
+  color: #8383fd !important;
 }
 
 .blank-row {
@@ -44,6 +54,26 @@ p {
   background-color: #ff5252;
 }
 
+.horizontal-align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.external-site {
+  margin: 15px !important;
+}
+
+/* START --- About Me page style */
+.about-me-content {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* END --- About Me page style */
+
+/* START --- Experience page styles */
 .img-company {
   width: 150px;
   height: 150px;
@@ -65,40 +95,17 @@ p {
 }
 
 .job-technologies {
-  text-align: center !important;
-  max-width: 1000px !important;
-  width: 1000px;
+  font-size: 0.85em;
+  text-align: center;
+  width: 100%;
   background-color: #ff5252;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 50px;
   padding: 2px;
   border-radius: 5px !important;
   color: #fff;
 }
+/* END --- Experience page styles */
 
-.github,
-.linkedin {
-  font-size: 1.75em !important;
-  margin: 15px !important;
-}
-
-.about-me-content {
-  color: #fff;
-  text-align: center;
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.horizontal-align-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/* START --- Projects page style */
 .project-img {
   display: "block";
   width: 100%;
@@ -108,3 +115,4 @@ p {
   border-style: solid;
   border-radius: 5px;
 }
+/* END --- Projects page style */

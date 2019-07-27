@@ -27,7 +27,17 @@ function Career(props) {
 
   return (
     <div className="container-fluid row-gap">
-      <div className="row">
+      <div
+        className="row"
+        style={{
+          backgroundColor: "black",
+          padding: "25px",
+          opacity: "0.85",
+          marginLeft: "10%",
+          marginRight: "10%",
+          borderRadius: "15px"
+        }}
+      >
         <div className="col job-title-col">
           <h4>{date}</h4>
           <p
@@ -36,12 +46,10 @@ function Career(props) {
           >
             {title}
           </p>
-
-          <p>
-            <a href={company.website} target="_blank" rel="noopener noreferrer">
-              {company.name}
-            </a>
-          </p>
+          <br />
+          <a href={company.website} target="_blank" rel="noopener noreferrer">
+            {company.name}
+          </a>
           <p>{location}</p>
         </div>
 
@@ -54,12 +62,8 @@ function Career(props) {
             <p key={index}>{resp}</p>
           ))}
         </div>
-      </div>
 
-      <div className="row">
-        <div className="job-technologies">
-          <span>{technologies}</span>
-        </div>
+        <div className="job-technologies align-middle">{technologies}</div>
       </div>
     </div>
   );

@@ -1,44 +1,33 @@
 import React from "react";
+import Link from "../components/Link";
 import BitcoinPriceHistoryScreenshot from "../assets/images/bitcoin-price-history-screenshot.png";
 import SpaceLaunchScreenshot from "../assets/images/space-launch-screenshot.png";
 
 export default function Project() {
+  const bitcoinPriceHistory = {
+    url: "https://chanhlonglu.github.io/react-bpi",
+    imgSrc: BitcoinPriceHistoryScreenshot,
+    imgAlt: "Bitcoin Price History"
+  };
+
+  const spaceLaunch = {
+    url: "https://chanhlonglu.github.io/react-space-launch",
+    imgSrc: SpaceLaunchScreenshot,
+    imgAlt: "Space Launch"
+  };
+
   return (
     <div className="container-fluid">
       <div className="row blank-row">
-        <h1>Projects</h1>
+        <h1>Personal Projects</h1>
       </div>
-      <div className="row">
-        <div className="horizontal-align-center">
-          <p>Personal projects</p>
-        </div>
-      </div>
+      <br />
       <div className="row">
         <div className="col-6">
-          <a
-            href="https://chanhlonglu.github.io/react-bpi"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={BitcoinPriceHistoryScreenshot}
-              alt="Bitcoin Price History"
-              className="project-img"
-            />
-          </a>
+          <Link content={bitcoinPriceHistory} />
         </div>
         <div className="col-6">
-          <a
-            href="https://chanhlonglu.github.io/react-space-launch"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={SpaceLaunchScreenshot}
-              alt="Space Launch"
-              className="project-img"
-            />
-          </a>
+          <Link content={spaceLaunch} />
         </div>
       </div>
     </div>
