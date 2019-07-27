@@ -33,26 +33,12 @@ function AboutMe() {
       <div className="flex-fill d-flex justify-content-start overflow-auto">
         <div className="about-me-content">
           <p>
-            Hello, I am{" "}
-            <b className="tracking-in-contract" style={{ color: "#ff5252" }}>
-              CHANH LONG LU
-            </b>
-            .
+            Hello and welcome to my website. I am
+            <h2 className="tracking-in-contract" style={{ color: "#ff5252" }}>
+              Chanh Long Lu
+            </h2>
           </p>
-          <p>
-            If in doubt about to how pronounce the{" "}
-            <u>
-              <b>H</b>
-            </u>{" "}
-            in my name, then think of how to say Jackie{" "}
-            <u>
-              <b>Chan</b>
-            </u>{" "}
-            last name 😉.
-          </p>
-          <p>
-            Welcome to my website. I am a Software Developer for over 3 years.
-          </p>
+          <p>I am a Software Developer for over 3 years.</p>
           <p>
             I have built and delivered solutions to improve productivity,
             streamline and automate business processes.
